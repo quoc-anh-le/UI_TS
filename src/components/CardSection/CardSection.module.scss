@@ -1,0 +1,19 @@
+.container{
+    margin: 0 15%;
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .card-list{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}

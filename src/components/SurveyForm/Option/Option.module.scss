@@ -1,0 +1,26 @@
+.add-question-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .content{
+        display: flex;
+    }
+
+    .text-input {
+      flex: 1;
+      outline: none;
+      border: none;
+      height: 40px;
+      width: 100%;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0.2px;
+      color: #202124;
+
+      &:focus {
+        border-bottom: 1.5px solid rgb(103, 58, 183);
+      }
+    }
+  }

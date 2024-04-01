@@ -1,0 +1,31 @@
+.container{
+    margin-top: 15px;
+
+    .card{
+        display: flex;
+        flex-direction: column;
+    
+    .create-icon{
+        box-sizing: border-box;
+        height: 120px;
+        width: 140px;
+        cursor: pointer;
+        border-radius: 2px;
+        border: 0.2px solid #e2e7da;
+        position: relative;
+        background-color: white;
+
+        &:hover{
+            border: 1px solid #6E2594;
+        }
+    }
+
+    .card-title{
+        padding-top: 4px;
+        font-size: 14px;
+        color: #202124;
+        font-weight: 500;
+    }
+}
+
+}
